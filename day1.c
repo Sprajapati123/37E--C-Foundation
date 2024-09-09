@@ -8,6 +8,8 @@ Purpose: This program is used to print "Hello World"
 version: 1.0
 */
 
+//link section
+#include<stdio.h>
 
 //defination section
 #define pi 3.114
