@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+void sum(int a, int b);
 int main(){
       //makes variable read-only
         // const int c = 50;
@@ -51,18 +52,24 @@ int main(){
     */
 
 
-  int a;
-  int b;
-  printf("Enter first number: ");
-  //scanf is used for user input
-  scanf("%d",&a);
+//   int a;
+//   int b;
+//   printf("Enter first number: ");
+//   //scanf is used for user input
+//   scanf("%d",&a);
   
-  printf("Enter second number: ");
-  scanf("%d",&b);
+//   printf("Enter second number: ");
+//   scanf("%d",&b);
   
-  int c = a+b;
+//   int c = a+b;
 
-  printf("The sum is %d",c);
+//   printf("The sum is %d",c);
 
+sum(10,20);
    
+}
+
+void sum(int a, int b){
+    int c = a+b;
+    printf("The sum is %d",c);
 }
