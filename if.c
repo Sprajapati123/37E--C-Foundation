@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&a);
 
     
-    if(a >= 18 && age < 50){
+    if(a >= 18 && a < 50){
         printf("You can drive");
     }else{
         printf("You cannot drive");

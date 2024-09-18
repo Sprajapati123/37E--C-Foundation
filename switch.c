@@ -33,7 +33,7 @@ int main(){
     // }
 
     /*
-    Enter days of week (1 -7):
+    Enter days of week (1 - 7):
     1 - sunday
     2- Monday
     3 - Tuesday
@@ -43,5 +43,7 @@ int main(){
     7 - Saturday
     default: Invalid days 
     */
+
+    
     
 }
