@@ -4,6 +4,7 @@
 int xyz = 10;
 //function declaration
 void display();
+
 void greet();
 void addition(int,int);
 int subtraction()
@@ -15,14 +16,14 @@ int main() {
     display();
     greet();
     
-    // addition(10,20);
+    addition(10,20);
 
-    // int c = subtraction();
+    int c = subtraction();
 
-    // int d = sum(10,10);
+    int d = sum(10,10);
 
-    // printf("%d",c);
-    // return 0;
+    printf("%d",c);
+    return 0;
 }
 
 int sum(int a,int b){
