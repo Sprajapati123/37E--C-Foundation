@@ -1,6 +1,7 @@
 // Online C compiler to run C program online
 #include <stdio.h>
 
+int xyz = 10;
 //function declaration
 void display();
 void greet();
@@ -9,25 +10,28 @@ int subtraction()
 int sum(int,int);
 
 int main() {
+    int x = 10;
     //calling function
     display();
     greet();
     
-    addition(10,20);
+    // addition(10,20);
 
-    int c = subtraction();
+    // int c = subtraction();
 
-    int d = sum(10,10);
+    // int d = sum(10,10);
 
-    printf("%d",c);
-    return 0;
+    // printf("%d",c);
+    // return 0;
 }
 
 int sum(int a,int b){
+    int a = 10;
     return a+b;
 }
 
 int subtraction(){
+    printf("%d",a)
     return 15;
 }
 //function defination
