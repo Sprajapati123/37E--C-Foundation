@@ -4,11 +4,31 @@
 //function declaration
 void display();
 void greet();
+void addition(int,int);
+int subtraction()
+int sum(int,int);
 
 int main() {
     //calling function
     display();
     greet();
+    
+    addition(10,20);
+
+    int c = subtraction();
+
+    int d = sum(10,10);
+
+    printf("%d",c);
+    return 0;
+}
+
+int sum(int a,int b){
+    return a+b;
+}
+
+int subtraction(){
+    return 15;
 }
 //function defination
 void display(){
@@ -17,6 +37,10 @@ void display(){
 
 void greet(){
     printf("Good Afternoon")
+}
+
+void addition(int a,int b){
+    printf("The sum is %d",a+b);
 }
 /*
  1. Function with no parameter no return type
